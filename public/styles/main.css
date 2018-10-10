@@ -1,0 +1,39 @@
+#footer footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#logo img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 0px;
+}
+
+#banner img {
+    align-content: left;
+    height: 150px;
+    width: 350px;
+}
+#content a {
+    color: black;
+}
+#content a.LINK {
+    color: black;
+}
+#content table {
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+#content th,td {
+    padding: 10px;
+    text-align: center;
+}
+
+#content tr:nth-child(even) {
+    background-color: #808080;
+}
